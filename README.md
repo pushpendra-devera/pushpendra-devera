@@ -36,14 +36,22 @@
 |---|---|
 | 🏠 **[Dallal Real Estate Marketplace](https://pushpendra-portfolio-theta.vercel.app/projects/dallal-real-estate-marketplace)** | Bilingual (EN/AR) React Native marketplace for Kuwait — 75+ screens, 33 feature modules, 100+ REST endpoints, live on the App Store & Google Play. |
 | 🧭 **[AI Job Agent](https://pushpendra-portfolio-theta.vercel.app/projects/ai-job-agent)** | Local-first Electron + TypeScript agent with a human-approval gate before any submission — LangGraph state machine, 6 ATS integrations, 2,997 passing tests across 198 files. |
-| 🌐 **[pushpendra-portfolio](https://github.com/pushpendra-devera/pushpendra-portfolio)** | Personal site built with Astro, TypeScript, and Playwright tests, deployed on Vercel. |
-| 🤖 **[ChatGPT-assist](https://github.com/pushpendra-devera/ChatGPT-assist)** | React Native app combining ChatGPT conversation, DALL·E 3 image generation, and Whisper speech-to-text/translation in one assistant. |
+
+<p align="center">
+  <a href="https://github.com/pushpendra-devera/pushpendra-portfolio">
+    <img src="https://github-readme-stats-pushpendra.vercel.app/api/pin/?username=pushpendra-devera&repo=pushpendra-portfolio&theme=radical&hide_border=true" />
+  </a>
+  <a href="https://github.com/pushpendra-devera/ChatGPT-assist">
+    <img src="https://github-readme-stats-pushpendra.vercel.app/api/pin/?username=pushpendra-devera&repo=ChatGPT-assist&theme=radical&hide_border=true" />
+  </a>
+</p>
 
 ---
 
 ### GitHub Stats
 
 <p align="center">
+  <img src="https://github-readme-stats-pushpendra.vercel.app/api?username=pushpendra-devera&theme=radical&show_icons=true&hide_border=true&count_private=true&hide_rank=true" height="165" />
   <img src="https://streak-stats.demolab.com/?user=pushpendra-devera&theme=radical&hide_border=true" height="165" />
 </p>
 
