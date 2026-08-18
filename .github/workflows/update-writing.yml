@@ -18,3 +18,4 @@ jobs:
         with:
           feed_list: "https://pushpendra-portfolio-theta.vercel.app/rss.xml"
           max_post_count: 3
+          disable_item_validation: true
