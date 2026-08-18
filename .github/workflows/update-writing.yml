@@ -1,0 +1,20 @@
+name: Update Writing section
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Pull latest notes into README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@v2
+        with:
+          feed_list: "https://pushpendra-portfolio-theta.vercel.app/rss.xml"
+          max_post_count: 3

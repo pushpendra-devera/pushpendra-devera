@@ -71,9 +71,13 @@
 
 ### Writing
 
-- [Not every decision needs a language model](https://pushpendra-portfolio-theta.vercel.app/notes/deterministic-vs-llm-judgment) — in agent design, the question isn't whether an LLM *can* do something, it's whether the decision needs reading comprehension or just comparison.
-- [Incoming calls don't care what state your app is in](https://pushpendra-portfolio-theta.vercel.app/notes/incoming-calls-app-states) — handling voice/video calls reliably across foreground, background, and killed states means leaving the in-app call screen for the platform's own call UI.
-- [Centralizing auth: one API client for 100+ endpoints](https://pushpendra-portfolio-theta.vercel.app/notes/jwt-refresh-token-retry) — why a single Axios client with token injection and 401 refresh-retry beat handling auth per-call.
+Auto-updated from [my latest notes](https://pushpendra-portfolio-theta.vercel.app/notes) whenever I publish.
+
+<!-- BLOG-POST-LIST:START -->
+- [Not every decision needs a language model](https://pushpendra-portfolio-theta.vercel.app/notes/deterministic-vs-llm-judgment/)
+- [Incoming calls don't care what state your app is in](https://pushpendra-portfolio-theta.vercel.app/notes/incoming-calls-app-states/)
+- [Centralizing auth: one API client for 100+ endpoints](https://pushpendra-portfolio-theta.vercel.app/notes/jwt-refresh-token-retry/)
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
