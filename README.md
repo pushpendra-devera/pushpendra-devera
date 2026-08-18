@@ -32,27 +32,16 @@
 
 ### Featured Projects
 
-<p align="center">
-  <a href="https://github.com/pushpendra-devera/pushpendra-portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pushpendra-devera&repo=pushpendra-portfolio&theme=radical&hide_border=true" />
-  </a>
-  <a href="https://github.com/pushpendra-devera/ChatGPT-assist">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=pushpendra-devera&repo=ChatGPT-assist&theme=radical&hide_border=true" />
-  </a>
-</p>
-
-<p align="center">
-  🌐 <a href="https://github.com/pushpendra-devera/pushpendra-portfolio"><b>pushpendra-portfolio</b></a> — personal site built with Astro, TypeScript, and Playwright tests, deployed on Vercel.
-  <br/>
-  🤖 <a href="https://github.com/pushpendra-devera/ChatGPT-assist"><b>ChatGPT-assist</b></a> — React Native app combining ChatGPT conversation, DALL·E 3 image generation, and Whisper speech-to-text/translation in one assistant.
-</p>
+| | |
+|---|---|
+| 🌐 **[pushpendra-portfolio](https://github.com/pushpendra-devera/pushpendra-portfolio)** | Personal site built with Astro, TypeScript, and Playwright tests, deployed on Vercel. |
+| 🤖 **[ChatGPT-assist](https://github.com/pushpendra-devera/ChatGPT-assist)** | React Native app combining ChatGPT conversation, DALL·E 3 image generation, and Whisper speech-to-text/translation in one assistant. |
 
 ---
 
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pushpendra-devera&theme=radical&show_icons=true&hide_border=true&count_private=true&hide_rank=true" height="165" />
   <img src="https://streak-stats.demolab.com/?user=pushpendra-devera&theme=radical&hide_border=true" height="165" />
 </p>
 
