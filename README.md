@@ -69,12 +69,21 @@
 
 ---
 
+### Writing
+
+- [Not every decision needs a language model](https://pushpendra-portfolio-theta.vercel.app/notes/deterministic-vs-llm-judgment) — in agent design, the question isn't whether an LLM *can* do something, it's whether the decision needs reading comprehension or just comparison.
+- [Incoming calls don't care what state your app is in](https://pushpendra-portfolio-theta.vercel.app/notes/incoming-calls-app-states) — handling voice/video calls reliably across foreground, background, and killed states means leaving the in-app call screen for the platform's own call UI.
+- [Centralizing auth: one API client for 100+ endpoints](https://pushpendra-portfolio-theta.vercel.app/notes/jwt-refresh-token-retry) — why a single Axios client with token injection and 401 refresh-retry beat handling auth per-call.
+
+---
+
 ### Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/pushpendra-singh-devera/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMjAuNDQ3IDIwLjQ1MmgtMy41NTR2LTUuNTY5YzAtMS4zMjgtLjAyNy0zLjAzNy0xLjg1Mi0zLjAzNy0xLjg1MyAwLTIuMTM2IDEuNDQ1LTIuMTM2IDIuOTM5djUuNjY3SDkuMzUxVjloMy40MTR2MS41NjFoLjA0NmMuNDc3LS45IDEuNjM3LTEuODUgMy4zNy0xLjg1IDMuNjAxIDAgNC4yNjcgMi4zNyA0LjI2NyA1LjQ1NXY2LjI4NnpNNS4zMzcgNy40MzNjLTEuMTQ0IDAtMi4wNjMtLjkyNi0yLjA2My0yLjA2NSAwLTEuMTM4LjkyLTIuMDYzIDIuMDYzLTIuMDYzIDEuMTQgMCAyLjA2NC45MjUgMi4wNjQgMi4wNjMgMCAxLjEzOS0uOTI1IDIuMDY1LTIuMDY0IDIuMDY1em0xLjc4MiAxMy4wMTlIMy41NTVWOWgzLjU2NHYxMS40NTJ6TTIyLjIyNSAwSDEuNzcxQy43OTIgMCAwIC43NzQgMCAxLjcyOXYyMC41NDJDMCAyMy4yMjcuNzkyIDI0IDEuNzcxIDI0aDIwLjQ1MUMyMy4yIDI0IDI0IDIzLjIyNyAyNCAyMi4yNzFWMS43MjlDMjQgLjc3NCAyMy4yIDAgMjIuMjIyIDBoLjAwM3oiLz48L3N2Zz4="/></a>
   <a href="https://x.com/dev_push_"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMTQuMjM0IDEwLjE2MiAyMi45NzcgMGgtMi4wNzJsLTcuNTkxIDguODI0TDcuMjUxIDBILjI1OGw5LjE2OCAxMy4zNDNMLjI1OCAyNEgyLjMzbDguMDE2LTkuMzE4TDE2Ljc0OSAyNGg2Ljk5M3ptLTIuODM3IDMuMjk5LS45MjktMS4zMjlMMy4wNzYgMS41NmgzLjE4Mmw1Ljk2NSA4LjUzMi45MjkgMS4zMjkgNy43NTQgMTEuMDloLTMuMTgyeiIvPjwvc3ZnPg=="/></a>
   <a href="https://pushpendra-portfolio-theta.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmIj48cGF0aCBkPSJtMTIgMS42MDggMTIgMjAuNzg0SDBaIi8+PC9zdmc+"/></a>
+  <a href="https://pushpendra-portfolio-theta.vercel.app/Pushpendra-Singh-Resume.pdf"><img src="https://img.shields.io/badge/Resume-4A5568?style=flat-square&logoColor=white"/></a>
   <a href="mailto:Pushpendra.devera@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logoColor=white&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMjQgNS40NTd2MTMuOTA5YzAgLjkwNC0uNzMyIDEuNjM2LTEuNjM2IDEuNjM2aC0zLjgxOVYxMS43M0wxMiAxNi42NGwtNi41NDUtNC45MXY5LjI3M0gxLjYzNkExLjYzNiAxLjYzNiAwIDAgMSAwIDE5LjM2NlY1LjQ1N2MwLTIuMDIzIDIuMzA5LTMuMTc4IDMuOTI3LTEuOTY0TDUuNDU1IDQuNjQgMTIgOS41NDhsNi41NDUtNC45MSAxLjUyOC0xLjE0NUMyMS42OSAyLjI4IDI0IDMuNDM0IDI0IDUuNDU3eiIvPjwvc3ZnPg=="/></a>
 </p>
 
