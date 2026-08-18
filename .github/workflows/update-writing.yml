@@ -8,14 +8,55 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: Pull latest notes into README
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://pushpendra-portfolio-theta.vercel.app/rss.xml"
-          max_post_count: 3
-          disable_item_validation: true
+
+      - name: Fetch notes and update README
+        run: |
+          node -e '
+          const fs = require("fs");
+          (async () => {
+            const res = await fetch("https://pushpendra-portfolio-theta.vercel.app/rss.xml");
+            const xml = await res.text();
+            const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => m[1]);
+            const notes = items
+              .map(item => ({
+                title: (item.match(/<title>([\s\S]*?)<\/title>/) || [])[1],
+                link: (item.match(/<link>([\s\S]*?)<\/link>/) || [])[1],
+              }))
+              .filter(n => n.title && n.link && n.link.includes("/notes/"))
+              .slice(0, 3);
+
+            if (notes.length === 0) {
+              console.log("No notes found in feed, leaving README untouched.");
+              return;
+            }
+
+            const list = notes.map(n => `- [${n.title}](${n.link})`).join("\n");
+            let readme = fs.readFileSync("README.md", "utf8");
+            readme = readme.replace(
+              /<!-- BLOG-POST-LIST:START -->[\s\S]*?<!-- BLOG-POST-LIST:END -->/,
+              `<!-- BLOG-POST-LIST:START -->\n${list}\n<!-- BLOG-POST-LIST:END -->`
+            );
+            fs.writeFileSync("README.md", readme);
+          })();
+          '
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "Update Writing section with latest notes"
+            git push
+          else
+            echo "No changes to commit."
+          fi
