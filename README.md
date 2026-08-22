@@ -16,6 +16,7 @@
 
 - React Native developer with 4.6+ years building production mobile apps for Android and iOS.
 - Core contributor to **Dallal**, a bilingual Kuwait real-estate marketplace app — 75+ screens, in-app calling with CometChat, OCR-based ID verification, and AI-generated listing descriptions.
+- Also build full-stack outside React Native — **RM Fitness Club** is a production website for a real, two-location gym, covering domain/DNS/email infra, a licensing-aware bilingual exercise-library pipeline, and a hardened CSP that caught real bugs on first deploy.
 - Comfortable across the full mobile stack: TypeScript, state management, REST APIs, Firebase, CI/CD, and release workflows for both app stores.
 - Currently building personal projects at the intersection of mobile and AI — see `ChatGPT-assist` below.
 - MCA graduate, Acropolis Institute of Technology and Research.
@@ -36,10 +37,14 @@
 |---|---|
 | 🏠 **[Dallal Real Estate Marketplace](https://pushpendra-portfolio-theta.vercel.app/projects/dallal-real-estate-marketplace)** | Bilingual (EN/AR) React Native marketplace for Kuwait — 75+ screens, 33 feature modules, 100+ REST endpoints, live on the App Store & Google Play. |
 | 🧭 **[AI Job Agent](https://pushpendra-portfolio-theta.vercel.app/projects/ai-job-agent)** | Local-first Electron + TypeScript agent with a human-approval gate before any submission — LangGraph state machine, 6 ATS integrations, 2,997 passing tests across 198 files. |
+| 🏋️ **[RM Fitness Club](https://pushpendra-portfolio-theta.vercel.app/projects/rm-fitness-club)** | Production site for a real two-location gym — domain/DNS/email infra, a licensing-aware bilingual (EN/HI) exercise library, and a hand-written CSP that caught two real bugs on first deploy. Live at [rmfitnessgym.in](https://rmfitnessgym.in). |
 
 <p align="center">
   <a href="https://github.com/pushpendra-devera/pushpendra-portfolio">
     <img src="https://github-readme-stats-pushpendra.vercel.app/api/pin/?username=pushpendra-devera&repo=pushpendra-portfolio&theme=radical&hide_border=true" />
+  </a>
+  <a href="https://github.com/pushpendra-devera/rm-fitness-club">
+    <img src="https://github-readme-stats-pushpendra.vercel.app/api/pin/?username=pushpendra-devera&repo=rm-fitness-club&theme=radical&hide_border=true" />
   </a>
   <a href="https://github.com/pushpendra-devera/ChatGPT-assist">
     <img src="https://github-readme-stats-pushpendra.vercel.app/api/pin/?username=pushpendra-devera&repo=ChatGPT-assist&theme=radical&hide_border=true" />
